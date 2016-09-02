@@ -1,0 +1,104 @@
+
+/*Entire ul the entire menu will move down. */
+#nav-list {
+  margin-top: 5px;
+}
+
+/*Every link on the list will have this color and be centered*/
+#nav-list a {
+  color: #ff4d88;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: white;
+}
+/*80% increase of the text*/
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.text-center {
+  color: #ff4d88;
+  font-size: 2.8em;
+}
+
+.text-center span{
+  color: #ff4d88;
+  font-size: 1.4em;
+}
+
+#company-title {
+    position: absolute;
+    width: 100%;
+    left: 0;
+	  vertical-align: middle;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#collapsable-nav a {
+  font-size: 1.8em;
+}
+
+#collapsable-nav a span{
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 0px;
+    padding-bottom: 8px;
+    padding-right: 50px;
+}
+/* Large devices only*/
+@media (min-width: 1200px) {
+  .jumbotron {
+    height:900px;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px, solid #3F0C1F;
+  }
+}
+
+/* Medium devices only*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .jumbotron {
+    height:1000px;
+    width: auto;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px, solid #3F0C1F;
+  }
+}
+
+/* Small devices only*/
+@media (min-width: 768px) and (max-width: 991px) {
+	  .jumbotron {
+    height:1400px;
+    width: auto;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px, solid #3F0C1F;
+  }
+}
+
+/* Extra small devices only*/
+@media (max-width: 767px) {
+    .jumbotron {
+    height:2000px;
+    width: auto;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px, solid #3F0C1F;
+  }
+}
